@@ -84,3 +84,10 @@ width: 100%;
     background-color:#05948B ;
     margin-top: 30px;
 }
+@media (max-width:500px) {
+
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+}
